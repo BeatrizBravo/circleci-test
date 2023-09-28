@@ -14,7 +14,7 @@ Steps:
     - Within the Dockerfile, the Ubuntu 20.041 image will be established as a base, to build a new image.<br>The base image contains an operating system and a preconfigured environment that will be used as the basis for your application or service. In this case, the base image is Ubuntu 20.04, which is a specific version of Ubuntu Linux1. <br>An images allows you to focus on adding and configuring the specific components of your application or service without having to worry about basic operating system configuration.<br> With Docker, you can manage your infrastructure in the same ways you manage your applications.<br>
 
  4. inside the repository create a folder called .circleci and inside it the config.yml file<br>
-    ![project structure](./estructura.PNG)
+    ![project structure](./images/estructura.PNG)
     
  5.  Access the Circleci account to synchronize projects.
     - Select the left tab that says "Projects"
@@ -34,4 +34,4 @@ docker image push beatrizi/circleci:latest
 8. Go back to Circleci Repository, Observe how the pipeline is executed.
     ![circleci-pipeline](./images/circleci-pipeline.PNG)
 9. Go back the repository in Github and notice that a green tick appears next to the last commit.
-    ![github-success-pipeline](./images/circleci-pipeline.PNG)
+    ![github-success-pipeline](./images/github-ccircleci.PNG)
